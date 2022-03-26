@@ -1,0 +1,180 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../image/girl.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    background-attachment: fixed;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+}
+.container
+{
+    background-color: rgb(255, 174, 0);
+    text-align: center;
+    height: 210px;
+    border-radius: 15px;
+    width: 665px;
+    margin: 31%;
+}
+.form
+{
+    padding: 20px 190px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+input
+{
+    padding: 6px;
+    font-weight: 600;
+}
+/*use some hover effect on the input box for shows beautifull*/
+input:hover{
+    border: 1px solid black;
+    transition: 1s;
+    border-radius: 10px;
+}
+.user-mail
+{
+    margin-right: 52px;
+}
+#user-password
+{
+    margin-right:97px;
+}
+/*for styling button i use some rgba color*/
+button
+{
+    width: 191px;
+    padding: 6px;
+    margin-top: 10px;
+    background-image: linear-gradient(rgb(24, 51, 204),rgba(19, 231, 19, 0.993));
+    color: white;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button:hover{
+    border-radius: 10px;
+    transition:1s;
+    border: 1px solid black;
+}
+/* adding media qury for different screen sizing*/
+
+@media (max-width:500px) {
+    .container
+    {
+        margin: auto;
+        width: 332px;
+        background-color: rgb(205, 100, 237);
+    }
+    .form{
+        padding: 5px 80px;
+        width: 150px;
+    }
+    .user-mail 
+    {
+    margin-right: 23px;
+    }
+    #user-password
+    {
+        margin-right: 68px;
+    }
+}
+@media (min-width:510px) {
+    .container
+    {
+        margin: auto;
+        width: 332px;
+        background-color: rgb(237, 100, 152);
+    }
+    .form{
+        padding: 5px 80px;
+        width: 150px;
+    }
+    .user-mail 
+    {
+    margin-right: 23px;
+    }
+    #user-password
+    {
+        margin-right: 68px;
+    }
+}
+@media (min-width:1200px) {
+    .container
+    {
+        margin: auto;
+        width: 500px;
+        background-color: rgb(237, 212, 100);
+    }
+    .form{
+        padding: 5px 100px;
+        width: 300px;
+    }
+    .user-mail 
+    {
+    margin-right: 55px;
+    }
+    #user-password
+    {
+        margin-right: 95px;
+    }
+}
+@media (min-width:1200px)
+{
+    .btn:hover
+    {
+     color:yellow;
+     text-shadow: 2px 2px black;
+    }
+}
+@media (min-width:500px)
+{
+    .btn:hover
+    {
+     color:rgb(0, 255, 221);
+     text-shadow: 2px 2px black;
+    }
+}
+@media (min-width:510px)
+{
+    .btn:hover
+    {
+     color:rgb(225, 0, 255);
+     text-shadow: 2px 2px black;
+    }
+}
+input:hover {
+        box-shadow: 2px 2px 2px black;
+        background-color: rgb(168, 230, 230);
+    }
+    
+@media (min-width:1100px)
+{
+.container:hover
+{
+    box-shadow: 10px 9px 20px  rgba(83, 226, 83, 0.8);
+}
+}
+@media (min-width:510px)
+{
+    .container:hover
+    {
+        box-shadow: 10px 9px 20px  rgba(233, 177, 112, 0.904);
+    }
+}
+@media (min-width:500px)
+{
+.container:hover
+{
+    box-shadow: 10px 9px 20px  rgba(227, 233, 200, 0.8);
+}
+}
